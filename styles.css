@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fefbd8;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-container {
+    text-align: center;
+}
+
+h1 {
+    color: #d2691e;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#cookie-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#cookie-button img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.1s ease;
+}
+
+#cookie-button img:active {
+    transform: scale(0.9);
+}
+
+#upgrades {
+    margin-top: 20px;
+}
+
+#upgrades button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ffcc99;
+    border: 2px solid #d2691e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upgrades button:hover {
+    background-color: #ff9966;
+}
