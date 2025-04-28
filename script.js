@@ -1,5 +1,5 @@
 let score = 0;
-let autoClickerCost = 10;
+let autoClickerCost = 350;
 let autoClickerEnabled = false;
 
 const scoreElement = document.getElementById("score");
@@ -31,5 +31,5 @@ function startAutoClicker() {
     setInterval(() => {
         score++;
         updateScore();
-    }, 1000);
+    }, 10);
 }
